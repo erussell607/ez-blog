@@ -16,6 +16,10 @@ const routes: Routes = [
     loadChildren: () => import ('./user/user.module').then(m => m.UserModule)
   },
   {
+    path: 'blog',
+    loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule)
+  },
+  {
     path: '**',
     redirectTo: '',
     pathMatch: 'full'
