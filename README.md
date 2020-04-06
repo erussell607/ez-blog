@@ -14,6 +14,19 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## How to run scully
+`ng build && npm run scully`
+
+## How to regren routes after a new post
+`npm run scully -- --scanRoutes`
+
+## How to create new post
+`ng g @scullyio/init:post --name='My First Post'`
+
+
+## Introducing Scully: Angular + JAMStack
+`https://www.youtube.com/watch?v=Sh37rIUL-d4`
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
